@@ -1,5 +1,5 @@
 <?php
-namespace BNLambert\Momo\Interfaces;
+namespace BNLambert\Phalcon\Mailer\Interfaces;
 /**
  * Created by IntelliJ IDEA.
  * User: HP
@@ -8,5 +8,5 @@ namespace BNLambert\Momo\Interfaces;
  */
 
 interface MailerInterface {
-    public function checkOut($tel, int $amount);
+
 }

@@ -3,10 +3,10 @@ declare(strict_types=1);
 
 namespace BNLambert\Phalcon\Mailer;
 
-use BNLambert\Momo\Interfaces\MailerInterface;
+// use BNLambert\Phalcon\Mailer\Interfaces\MailerInterface;
 use BNLambert\Phalcon\Mailer\helpers\Message;
 use GuzzleHttp\Client;
-use BNLambert\Momo\Helpers\Config;
+use BNLambert\Phalcon\Mailer\Helpers\Config;
 
 
 /**

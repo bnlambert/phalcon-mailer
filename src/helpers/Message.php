@@ -6,7 +6,7 @@
  * Time: 9:58 PM
  */
 
-namespace BNLambert\Phalcon\Mailer\helpers;
+namespace BNLambert\Phalcon\Mailer\Helpers;
 
 
 use BNLambert\Phalcon\Mailer\Interfaces\MessageInterface;
