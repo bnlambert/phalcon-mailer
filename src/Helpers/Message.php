@@ -69,7 +69,9 @@ class Message implements MessageInterface
         else {
             ob_start();
             include $temp;
-            $this->msg->setBody(ob_get_contents(), 'text/html');
+            $content = ob_get_contents();
+            ob_end_clean();
+            $this->msg->setBody($content, 'text/html');
             return $this;
         }
     }

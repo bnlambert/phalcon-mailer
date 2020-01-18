@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace BNLambert\Phalcon\Mailer;
 
 // use BNLambert\Phalcon\Mailer\Interfaces\MailerInterface;
-use BNLambert\Phalcon\Mailer\helpers\Message;
+use BNLambert\Phalcon\Mailer\Helpers\Message;
 use GuzzleHttp\Client;
 use BNLambert\Phalcon\Mailer\Helpers\Config;
 
