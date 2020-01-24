@@ -23,16 +23,16 @@ class Mailer {
     protected $message;
 
 
-    public function __construct($params)
+    public function __construct()
     {
-        $this->config = new Config($params);
+        $this->config = new Config();
         $this->message = new Message();
     }
 
     public function send()
     {
         try {
-            $mailer = new Swift_Mailer($this->config->getTransport());
+            $mailer = new \Swift_Mailer($this->config->getTransport());
             $mailer->send($this->message->getMsg());
             return true;
         } catch (\Exception $exception) {

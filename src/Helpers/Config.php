@@ -8,8 +8,9 @@
 
 namespace BNLambert\Phalcon\Mailer\Helpers;
 
+use Phalcon\Di\Injectable;
 
-class Config
+class Config extends Injectable
 {
 
 
@@ -25,8 +26,10 @@ class Config
     protected $transport;
 
 
-    public function __construct($params)
+    public function __construct()
     {
+        $params = $this->config->email ?? [];
+
         $this->driver = $params['driver'] ?? 'smtp';
         $this->host = $params['host'] ?? 'localhost';
         $this->port = $params['port'] ?? 25;
@@ -43,11 +46,11 @@ class Config
         // Create the Transport
         if($this->driver == 'sendmail') {
 
-            $this->transport = new Swift_SendmailTransport('/usr/sbin/sendmail -bs');
+            $this->transport = new \Swift_SendmailTransport('/usr/sbin/sendmail -bs');
         }
         else {
 
-            $this->transport = (new Swift_SmtpTransport($this->host, $this->port))
+            $this->transport = (new \Swift_SmtpTransport($this->host, $this->port))
                 ->setUsername($this->username)
                 ->setPassword($this->password);
         }

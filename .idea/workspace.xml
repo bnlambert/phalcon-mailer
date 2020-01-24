@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c45a710-6867-4225-90b1-19063f541f58" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/MailManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/MailManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/MailerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/MailerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/MessageInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/MessageInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helpers/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,16 +25,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Helpers/Config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="425">
+              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mailer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mailer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Mailer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
@@ -111,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/interfaces/MailerInterface.php" />
         <option value="$PROJECT_DIR$/src/Helpers/Message.php" />
         <option value="$PROJECT_DIR$/src/Mailer.php" />
+        <option value="$PROJECT_DIR$/src/Helpers/Config.php" />
       </list>
     </option>
   </component>
@@ -247,12 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1578929410121</updated>
       <workItem from="1578929417837" duration="7632000" />
-      <workItem from="1579263671724" duration="7519000" />
+      <workItem from="1579263671724" duration="8799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15151000" />
+    <option name="totallyTimeSpent" value="16431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -354,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Helpers/MailManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -396,6 +384,13 @@
           <folding>
             <element signature="e#129#174#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
         </state>
       </provider>
     </entry>
