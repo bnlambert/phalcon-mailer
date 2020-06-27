@@ -28,7 +28,7 @@ class Config extends Injectable
 
     public function __construct()
     {
-        $params = $this->config->email ?? [];
+        $params = $this->config->mail ?? [];
 
         $this->driver = $params['driver'] ?? 'smtp';
         $this->host = $params['host'] ?? 'localhost';

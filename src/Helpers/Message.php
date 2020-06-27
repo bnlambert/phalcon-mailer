@@ -18,7 +18,7 @@ class Message implements MessageInterface
 
     public function __construct()
     {
-        $this->msg = (new Swift_Message());
+        $this->msg = (new \Swift_Message());
 
         // ->setBody('Here is the message itself')
     ;
@@ -45,7 +45,7 @@ class Message implements MessageInterface
 
     public function attach($path)
     {
-        $this->msg->attach(Swift_Attachment::fromPath($path));
+        $this->msg->attach(\Swift_Attachment::fromPath($path));
         return $this;
     }
 
